@@ -17,6 +17,9 @@ body, html{
   background: #FCFCFC;
 }
 
+
+
+
 .wrapper{
   max-width: 960px;
   width: 100%;
@@ -65,6 +68,18 @@ h2{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
 }
+
+.emphasize{
+  border-left: 5px solid #27AE60;
+  padding: 1em;
+  box-shadow:0px 1px 5px #27AE60;
+}
+.emphasize h2{ 
+  margin: 0px;
+  border-left: 0px;
+  align-items: center;
+}
+
 .row{ 
    display: flex;
    justify-content: space-between;
