@@ -164,6 +164,11 @@ article h2.open-forever{
   max-width: 250px;
   margin: 0 auto;
 }
+.eigenmok{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 button{
   width: 100%;
@@ -212,15 +217,7 @@ footer{
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
 
-@media (max-width: 480px) {
-  .hidden-on-lg{
-    display: block;
-  }
-  .hidden-on-sm{
-    display: none;
-  }
- 
-}
+
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -240,6 +237,19 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media (max-width: 480px) {
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+  .eigenmok{
+    flex-direction: column;
+  }
+ 
 }
 
 /*
